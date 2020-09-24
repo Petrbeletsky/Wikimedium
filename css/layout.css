@@ -2,7 +2,7 @@ body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; 
 }
 a { color: inherit;
 }
-article > h1, h2, h3, p, ul, blockquote { width: 700px; margin: 0 auto;
+article > h1, h2, h3, p, ol, li, blockquote { width: 700px; margin: 0 auto;
 }
 h1, h2, h3 { font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
 }
@@ -53,6 +53,8 @@ h3 + img { margin-top: 81px;
 li {
   list-style-type: disc;
 }
-
+li ol li {
+  width: 800px;
+}
 ol li { margin-left: 50px; }
 ul li { margin-left: 30px; }
